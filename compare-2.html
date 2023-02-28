@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/b690895109.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>FlickerFone</title>
+</head>
+
+<body class="body-main">
+    <nav class="navbar navbar-expand-lg navbar-light main-nav py-lg-4 py-3 ">
+        <div class="container-fluid px-lg-5 ">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-black.png" alt=""></a>
+
+            <div class="w-100 justify-content-between align-items-center d-lg-flex d-none">
+                <div class="d-flex justify-content-center col">
+                    <a class="main-nav-link active" href="new-phones.html">New Phones</a>
+                    <a class="main-nav-link" href="buy.html">Buy</a>
+                    <a class="main-nav-link " href="sell.html">Sell</a>
+                    <a class="main-nav-link" href="accessories.html">Accessories</a>
+                    <a class="main-nav-link " href="price-calculator.html">Price Calculator</a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="bell">
+                        <span>2</span>
+                        <img src="assets/images/bell.png" alt="">
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle user-btn" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/images/user.png" alt=""> Hello, Shoaib
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="profile.html">View Profile</a></li>
+                            <li><a class="dropdown-item" href="setting.html">Your Setting</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ps-2 main-right-controls">
+                <img src="assets/images/magnifying.png" class="d-lg-none d-block" alt="">
+                <img src="assets/images/filter.png" class="d-lg-none d-block" id="filter-btn" alt="">
+                <img src="assets/images/ham-2.png" id="bars" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+
+    <aside class="login-aside open" id="login-aside">
+        <div class="side-cross">
+            <span id="login-close">✕</span>
+        </div>
+        <img src="assets/images/logo.PNG" alt="">
+        <div class="mt-4">
+            <a href="new-phones.html">New Phones</a>
+            <a href="buy.html">Buy</a>
+            <a href="sell.html">Sell</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="price-calculator.html">Price Calculator</a>
+            <a href="login.html" class="btn-1 active mt-3  d-lg-none d-block">LOG IN</a>
+            <a href="signup.html" class="btn-1 mt-2 d-lg-none d-block">SIGN UP</a>
+        </div>
+    </aside>
+
+
+    <div class="container-fluid px-0" style="min-height: 100vh;">
+        <p class="breade-crumb"><a href="index.html">Home</a> / <a href="">Sell Mobile</a> / <a href="">Sell Apple</a>
+        </p>
+        <div class="py-lg-4 py-0 px-lg-4 px-2">
+            <h2 style="font-weight: bold;">Compare Mobile Phones</h2>
+
+            <div class="compare-parent mt-4">
+                <div class="card" style="background-color: transparent; box-shadow: none;">
+                    <div class="card-body px-4 p-2">
+                        <strong class="d-flex justify-content-end ">✕</strong>
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/images/dummy-1.png" style="width: 100px;" alt="">
+                            <strong class="pt-2 ">iPhone 12 With 256 GB </strong>
+                            <h5 class="faded pt-1">Rs 150,000</h5>
+                        </div>
+                    </div>
+                </div>
+                <span class="seprator p-3">VS</span>
+                <div class="card" style="background-color: transparent; box-shadow: none;">
+                    <div class="card-body px-4 p-2">
+                        <strong class="d-flex justify-content-end ">✕</strong>
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/images/dummy-1.png" style="width: 100px;" alt="">
+                            <strong class="pt-2 ">iPhone 12 With 256 GB </strong>
+                            <h5 class="faded pt-1">Rs 150,000</h5>
+                        </div>
+                    </div>
+                </div>
+                <span class="seprator p-3">VS</span>
+                <div class="card" style="background-color: transparent; box-shadow: none;">
+                    <div class="card-body px-4 p-2">
+                        <strong class="d-flex justify-content-end ">✕</strong>
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="assets/images/dummy-1.png" style="width: 100px;" alt="">
+                            <strong class="pt-2 ">iPhone 12 With 256 GB </strong>
+                            <h5 class="faded pt-1">Rs 150,000</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column">
+                <strong class="my-3 ps-1" style="font-size: 18px;">Display</strong>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-4 row mx-0 mt-lg-0 mt-3">
+                                <div class="col-6 d-flex flex-column border-end">
+                                    <span class="text-end pt-2">Screen Size</span>
+                                    <span class="text-end pt-2">Screen Resolution</span>
+                                    <span class="text-end pt-2"> Pixel Density</span>
+                                    <span class="text-end pt-2"> Screen to Body Ratio</span>
+                                </div>
+                                <div class="col-6 d-flex flex-column ">
+                                    <span class=" pt-2">Screen Size</span>
+                                    <span class=" pt-2">Screen Resolution</span>
+                                    <span class=" pt-2"> Pixel Density</span>
+                                    <span class=" pt-2"> Screen to Body Ratio</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 row mx-0 mt-lg-0 mt-3">
+                                <div class="col-6 d-flex flex-column border-end">
+                                    <span class="text-end pt-2">Screen Size</span>
+                                    <span class="text-end pt-2">Screen Resolution</span>
+                                    <span class="text-end pt-2"> Pixel Density</span>
+                                    <span class="text-end pt-2"> Screen to Body Ratio</span>
+                                </div>
+                                <div class="col-6 d-flex flex-column ">
+                                    <span class=" pt-2">Screen Size</span>
+                                    <span class=" pt-2">Screen Resolution</span>
+                                    <span class=" pt-2"> Pixel Density</span>
+                                    <span class=" pt-2"> Screen to Body Ratio</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 row mx-0 mt-lg-0 mt-3">
+                                <div class="col-6 d-flex flex-column border-end">
+                                    <span class="text-end pt-2">Screen Size</span>
+                                    <span class="text-end pt-2">Screen Resolution</span>
+                                    <span class="text-end pt-2"> Pixel Density</span>
+                                    <span class="text-end pt-2"> Screen to Body Ratio</span>
+                                </div>
+                                <div class="col-6 d-flex flex-column ">
+                                    <span class=" pt-2">Screen Size</span>
+                                    <span class=" pt-2">Screen Resolution</span>
+                                    <span class=" pt-2"> Pixel Density</span>
+                                    <span class=" pt-2"> Screen to Body Ratio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <strong class="my-3 ps-1" style="font-size: 18px;">Battery</strong>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-4 row mx-0 mt-lg-0 mt-3">
+                                <div class="col-6 d-flex flex-column border-end">
+                                    <span class="text-end pt-2">Screen Size</span>
+                                    <span class="text-end pt-2">Screen Resolution</span>
+                                    <span class="text-end pt-2"> Pixel Density</span>
+                                    <span class="text-end pt-2"> Screen to Body Ratio</span>
+                                </div>
+                                <div class="col-6 d-flex flex-column ">
+                                    <span class=" pt-2">Screen Size</span>
+                                    <span class=" pt-2">Screen Resolution</span>
+                                    <span class=" pt-2"> Pixel Density</span>
+                                    <span class=" pt-2"> Screen to Body Ratio</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 row mx-0 mt-lg-0 mt-3">
+                                <div class="col-6 d-flex flex-column border-end">
+                                    <span class="text-end pt-2">Screen Size</span>
+                                    <span class="text-end pt-2">Screen Resolution</span>
+                                    <span class="text-end pt-2"> Pixel Density</span>
+                                    <span class="text-end pt-2"> Screen to Body Ratio</span>
+                                </div>
+                                <div class="col-6 d-flex flex-column ">
+                                    <span class=" pt-2">Screen Size</span>
+                                    <span class=" pt-2">Screen Resolution</span>
+                                    <span class=" pt-2"> Pixel Density</span>
+                                    <span class=" pt-2"> Screen to Body Ratio</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 row mx-0 mt-lg-0 mt-3">
+                                <div class="col-6 d-flex flex-column border-end">
+                                    <span class="text-end pt-2">Screen Size</span>
+                                    <span class="text-end pt-2">Screen Resolution</span>
+                                    <span class="text-end pt-2"> Pixel Density</span>
+                                    <span class="text-end pt-2"> Screen to Body Ratio</span>
+                                </div>
+                                <div class="col-6 d-flex flex-column ">
+                                    <span class=" pt-2">Screen Size</span>
+                                    <span class=" pt-2">Screen Resolution</span>
+                                    <span class=" pt-2"> Pixel Density</span>
+                                    <span class=" pt-2"> Screen to Body Ratio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <strong class="my-3 ps-1" style="font-size: 18px;">Memory & Storage</strong>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-4 row mx-0 mt-lg-0 mt-3">
+                                <div class="col-6 d-flex flex-column border-end">
+                                    <span class="text-end pt-2">Screen Size</span>
+                                    <span class="text-end pt-2">Screen Resolution</span>
+                                    <span class="text-end pt-2"> Pixel Density</span>
+                                    <span class="text-end pt-2"> Screen to Body Ratio</span>
+                                </div>
+                                <div class="col-6 d-flex flex-column ">
+                                    <span class=" pt-2">Screen Size</span>
+                                    <span class=" pt-2">Screen Resolution</span>
+                                    <span class=" pt-2"> Pixel Density</span>
+                                    <span class=" pt-2"> Screen to Body Ratio</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 row mx-0 mt-lg-0 mt-3">
+                                <div class="col-6 d-flex flex-column border-end">
+                                    <span class="text-end pt-2">Screen Size</span>
+                                    <span class="text-end pt-2">Screen Resolution</span>
+                                    <span class="text-end pt-2"> Pixel Density</span>
+                                    <span class="text-end pt-2"> Screen to Body Ratio</span>
+                                </div>
+                                <div class="col-6 d-flex flex-column ">
+                                    <span class=" pt-2">Screen Size</span>
+                                    <span class=" pt-2">Screen Resolution</span>
+                                    <span class=" pt-2"> Pixel Density</span>
+                                    <span class=" pt-2"> Screen to Body Ratio</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 row mx-0 mt-lg-0 mt-3">
+                                <div class="col-6 d-flex flex-column border-end">
+                                    <span class="text-end pt-2">Screen Size</span>
+                                    <span class="text-end pt-2">Screen Resolution</span>
+                                    <span class="text-end pt-2"> Pixel Density</span>
+                                    <span class="text-end pt-2"> Screen to Body Ratio</span>
+                                </div>
+                                <div class="col-6 d-flex flex-column ">
+                                    <span class=" pt-2">Screen Size</span>
+                                    <span class=" pt-2">Screen Resolution</span>
+                                    <span class=" pt-2"> Pixel Density</span>
+                                    <span class=" pt-2"> Screen to Body Ratio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    </div>
+
+    <div class="container-fluid p-0 m-0 ">
+        <div class="footer d-flex align-items-center justify-content-lg-between flex-lg-row flex-column p-lg-4 p-2">
+            <img src="assets/images/logo-footer.png" class="logo" alt="">
+            <div class="links d-flex w-100 flex-lg-row flex-column justify-content-center">
+                <a class="py-lg-0 py-2">Copyright © 2021 - All Rights</a>
+                <a href="" class="py-lg-0 py-2">Reserved </a><span class="d-lg-block d-none">|</span>
+                <a href="" class="py-lg-0 py-2">About Us </a><span class="d-lg-block d-none">|</span>
+                <a href="" class="py-lg-0 py-2">Terms of Use </a><span class="d-lg-block d-none">|</span>
+                <a href="" class="py-lg-0 py-2">Privacy Policy </a>
+            </div>
+            <div class="social-links d-flex">
+                <a href=""><img src="assets/images/fb.png" alt=""></a>
+                <a href=""><img src="assets/images/in.png" alt=""></a>
+                <a href=""><img src="assets/images/tt.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/js/side-bar-1.js"></script>
+<script src="assets/js/filter.js"></script>
+
+</html>
